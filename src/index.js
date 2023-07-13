@@ -13,15 +13,15 @@ ReactDOM.render(
     <Router>
       <App>
         <Switch>
-          <Route exact path='/' Component={Home} />
-          <Route path='/sobre' Component={Sobre} />
-          <Route path='/contato' Component={Contato} />
+          <Route exact path='/' component={Home} />
+          <Route path='/sobre' component={Sobre} />
+          <Route path='/contato' component={Contato} />
         </Switch>
       </App>
     </Router>
 
   ),
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function

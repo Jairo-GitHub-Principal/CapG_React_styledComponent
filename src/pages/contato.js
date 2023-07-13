@@ -1,11 +1,14 @@
 import React from "react";
+import { HomeDivMain } from "../estilos/stilos";
 
 
 const Contato=()=> {
     return (
-     <div>
-        <h1>pagina de contatos</h1>
-     </div>
+      <HomeDivMain>
+            <div>
+               <h1>pagina de contatos</h1>
+            </div>
+     </HomeDivMain>
     );
   }
   

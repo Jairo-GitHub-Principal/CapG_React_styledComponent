@@ -1,15 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import { FooterEstilo } from '../estilos/stilos';
 
-const Rodape = styled.p`
-    color:blue; font-size:15px
-    position:absolute;
-    botton:0;
-    width:100%
- `;
+
 const Footer = ()=>(
-    <footer>
-        <Rodape> Rodapé: Obrigado pela sua visita<br/> Endereço: rua na Graça ,1000,SP</Rodape>
-    </footer>
+   
+        <FooterEstilo> Rodapé: Obrigado pela sua visita<br/> Endereço: rua na Graça ,1000,SP</FooterEstilo>
+   
 );
 export default Footer;

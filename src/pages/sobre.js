@@ -1,12 +1,15 @@
 
 import React from "react";
+import { HomeDivMain } from "../estilos/stilos";
 
 
 const Sobre=()=> {
     return (
-     <div >
-        <h2>Sobre nós</h2>
-     </div>
+      <HomeDivMain>
+         <div >
+            <h2>Sobre nós</h2>
+         </div>
+     </HomeDivMain>
     );
   }
   
